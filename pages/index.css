@@ -9,34 +9,33 @@
   height: 70px;
   top: 34px;
   left: 505px;
+  margin: auto;
 }
 
 .header__title {
   width: 793px;
   height: 200px;
-  top: 194px;
-  left: 243px;
   font-family: Inter;
   font-size: 96px;
   font-weight: 900;
   line-height: 100px;
   letter-spacing: 0em;
   text-align: center;
-  background: #ffffff;
+  color: #ffffff;
+  margin: auto;
 }
 
 .header__subtitle {
   width: 720px;
   height: 72px;
-  top: 426px;
-  left: 280px;
   font-family: Inter;
   font-size: 30px;
   font-weight: 400;
   line-height: 36px;
   letter-spacing: 0em;
   text-align: center;
-  background: #ffffff;
+  color: #ffffff;
+  margin: auto;
 }
 
 .header__image {
@@ -44,5 +43,83 @@
   height: 615px;
   top: 562px;
   left: 148px;
-  background: #000000;
+  color: #000000;
+  margin: auto;
+}
+
+.header__intro {
+  width: 1017px;
+  height: 116px;
+  top: 1269px;
+  left: 148px;
+  font-family: Inter;
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  margin: auto;
+}
+
+.header__paragraph {
+  width: 722px;
+  height: 136px;
+  top: 1425px;
+  left: 148px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  margin: auto;
+}
+.header__paragraph header__paragraph-author {
+  width: 720px;
+  height: 34px;
+  top: 1537px;
+  left: 148px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #ffffff;
+  margin: auto;
+}
+
+.header__paragraph-two {
+  width: 720px;
+  height: 182px;
+  top: 1603px;
+  left: 148px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  margin: auto;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  width: 1184px;
+  height: 442px;
+  top: 1877px;
+  left: 48px;
+  margin: auto;
+}
+
+.photo-grid__item {
+  width: 284px;
+  height: 213px;
+  top: 1877px;
+  left: 48px;
 }
