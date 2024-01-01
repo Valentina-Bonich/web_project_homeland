@@ -263,3 +263,53 @@
   left: 500px;
   margin: auto;
 }
+
+.cover-button {
+  width: 158px;
+  height: 22px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  background-color: #0278fe;
+  width: Hug (198px);
+  height: Hug (48px);
+  top: 7050px;
+  left: 541px;
+  padding: 13px, 20px, 13px, 20px;
+  border-radius: 4px;
+  gap: 10px;
+}
+.footer__content {
+  width: 191px;
+  height: 16px;
+  top: 7433px;
+  left: 531px;
+}
+
+.footer__copyright {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .photo-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .photo-grid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+  }
+}
