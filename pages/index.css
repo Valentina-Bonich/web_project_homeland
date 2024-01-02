@@ -7,14 +7,11 @@
 .header__logo {
   width: 270px;
   height: 70px;
-  top: 34px;
-  left: 505px;
+  display: flex;
   margin: auto;
 }
 
 .header__title {
-  width: 793px;
-  height: 200px;
   font-family: Inter;
   font-size: 96px;
   font-weight: 900;
@@ -23,11 +20,11 @@
   text-align: center;
   color: #ffffff;
   margin: auto;
+  margin-top: 100px;
+  max-width: 500px;
 }
 
 .header__subtitle {
-  width: 720px;
-  height: 72px;
   font-family: Inter;
   font-size: 30px;
   font-weight: 400;
@@ -36,22 +33,22 @@
   text-align: center;
   color: #ffffff;
   margin: auto;
+  margin-top: 20px;
+  max-width: 650px;
 }
 
-.header__image {
-  width: 984px;
-  height: 615px;
-  top: 562px;
-  left: 148px;
+.header__ilustration {
+  width: 1500px;
+  height: 800px;
   color: #000000;
+  display: flex;
   margin: auto;
+  margin-top: 50px;
+  filter: grayscale(100%);
 }
 
 .header__intro {
-  width: 1017px;
-  height: 116px;
-  top: 1269px;
-  left: 148px;
+  max-width: 900px;
   font-family: Inter;
   font-size: 54px;
   font-weight: 900;
@@ -60,13 +57,10 @@
   text-align: left;
   color: #ffffff;
   margin: auto;
+  margin-top: 100px;
 }
 
 .header__paragraph {
-  width: 722px;
-  height: 136px;
-  top: 1425px;
-  left: 148px;
   font-family: Inter;
   font-size: 24px;
   font-weight: 400;
@@ -75,12 +69,11 @@
   text-align: left;
   color: #ffffff;
   margin: auto;
+  max-width: 600px;
+  margin-top: 30px;
 }
-.header__paragraph header__paragraph-author {
-  width: 720px;
-  height: 34px;
-  top: 1537px;
-  left: 148px;
+
+.header__paragraph .header__paragraph-author {
   font-family: Inter;
   font-size: 24px;
   font-weight: 400;
@@ -92,10 +85,6 @@
 }
 
 .header__paragraph-two {
-  width: 720px;
-  height: 182px;
-  top: 1603px;
-  left: 148px;
   font-family: Inter;
   font-size: 16px;
   font-weight: 400;
@@ -104,6 +93,8 @@
   text-align: left;
   color: #ffffff;
   margin: auto;
+  max-width: 600px;
+  margin-top: 50px;
 }
 
 .photo-grid {
@@ -112,40 +103,30 @@
   grid-template-rows: repeat(2, 1fr);
   width: 1184px;
   height: 442px;
-  top: 1877px;
-  left: 48px;
   margin: auto;
+  margin-top: 100px;
 }
 
 .photo-grid__item {
   width: 284px;
   height: 213px;
-  top: 1877px;
-  left: 48px;
 }
 
 .places {
-  width: 987px;
-  height: 4098px;
-  top: 2411px;
-  left: 145px;
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
 }
 
 .places__item {
-  width: 984px;
-  height: 756px;
-  left: 148px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  max-width: 1280px;
 }
 
 .places__item-title {
-  width: 460px;
-  height: 152px;
-  top: 2411px;
-  left: 148px;
   font-family: Inter;
   font-size: 72px;
   font-weight: 900;
@@ -153,27 +134,19 @@
   letter-spacing: 0em;
   text-align: left;
   color: #ffffff;
+  max-width: 100px;
 }
 
 .places__item-author {
-  width: 58px;
-  height: 15px;
-  top: 2518px;
-  left: 648px;
   font-family: Inter;
   font-size: 12px;
   font-weight: 400;
   line-height: 15px;
-  letter-spacing: 0.12em;
-  text-align: left;
   color: #aaaaaa;
+  margin-top: 150px;
 }
 
 .places__item-name {
-  width: 456px;
-  height: 22px;
-  top: 2541px;
-  left: 648px;
   font-family: Inter;
   font-size: 18px;
   font-weight: 400;
@@ -193,24 +166,8 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 29px;
-  letter-spacing: 0em;
-  text-align: left;
   color: #ffffff;
-}
-
-.places__item-paragraph1 {
-  width: 484px;
-  height: 203px;
-  top: 2611px;
-  left: 648px;
-  font-family: Inter;
-}
-
-.places__item-paragraph2 {
-  width: 484px;
-  height: 232px;
-  top: 2839px;
-  left: 648px;
+  max-width: 500px;
 }
 
 .places__item-button {
@@ -220,10 +177,9 @@
   font-size: 18px;
   font-weight: 600;
   line-height: 22px;
-  letter-spacing: 0em;
-  text-align: left;
   width: 315px;
-  height: 22px;
+  height: 40px;
+  margin-top: 40px;
 }
 
 .cover__image {
