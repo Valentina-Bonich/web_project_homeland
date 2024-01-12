@@ -4,10 +4,8 @@
   font-weight: 400;
   line-height: 34px;
   color: #ffffff;
-  margin: auto;
-  max-width: 600px;
-  margin-top: 30px;
-  margin-left: 400px;
+  max-width: 722px;
+  max-height: 136px;
 }
 
 .intro__paragraph .intro__paragraph-author {
@@ -16,7 +14,6 @@
   font-weight: 400;
   line-height: 34px;
   color: #ffffff;
-  margin-left: 250px;
 }
 
 .intro__paragraph-two {
@@ -25,8 +22,30 @@
   font-weight: 400;
   line-height: 26px;
   color: #ffffff;
-  margin: auto;
-  max-width: 600px;
-  margin-top: 50px;
-  margin-left: 400px;
+  max-width: 720px;
+  max-height: 182px;
+}
+
+@media screen and (min-width: 768) and (max-width: 1279) {
+  .intro__paragraph {
+    max-width: 720px;
+  }
+}
+
+@media screen and (min-width: 320) and (max-width: 767) {
+  .intro__paragraph {
+    max-width: 288px;
+    max-height: 300px;
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (min-width: 320) and (max-width: 767) {
+  .intro__paragraph-two {
+    max-width: 288px;
+    max-height: 442px;
+    font-size: 16px;
+    line-height: 26px;
+  }
 }
