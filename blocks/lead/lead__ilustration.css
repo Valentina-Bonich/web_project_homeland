@@ -1,0 +1,9 @@
+.lead__ilustration {
+  width: 1000px;
+  height: 600px;
+  color: #000000;
+  display: flex;
+  margin: auto;
+  margin-top: 50px;
+  filter: grayscale(100%);
+}

@@ -1,0 +1,11 @@
+.places__button {
+  color: #ffffff;
+  background-color: #0278fe;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  width: 315px;
+  height: 40px;
+  margin-top: 40px;
+}

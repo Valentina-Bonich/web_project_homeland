@@ -1,0 +1,9 @@
+.cover__paragraph {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #ffffff;
+  z-index: 2;
+  width: 200px;
+}
