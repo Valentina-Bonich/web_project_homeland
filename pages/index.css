@@ -36,14 +36,14 @@
 @import url(../blocks/footer/footer__copyright.css);
 
 @font-face {
-  src: url ();
+  src: url(../fonts/Inter-Regular.woff2) format("woff2");
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
-  src: url ();
+  src: url(../fonts/Inter-Bold.woff2) format("woff2");
   font-family: "Inter";
   font-style: bold;
   font-weight: 900;
