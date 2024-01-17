@@ -48,3 +48,8 @@
   font-style: bold;
   font-weight: 900;
 }
+
+body {
+  padding: 0;
+  margin: 0;
+}

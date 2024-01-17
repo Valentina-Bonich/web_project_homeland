@@ -1,8 +1,6 @@
 .lead__ilustration {
   max-width: 984px;
-  min-height: 615px;
-  color: #000000;
-  display: flex;
+  max-height: 615px;
   margin: auto;
   margin-top: 50px;
   filter: grayscale(100%);
@@ -11,13 +9,11 @@
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .lead__ilustration {
     max-width: 768px;
-    max-height: 480px;
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .lead__ilustration {
     max-width: 320px;
-    max-height: 200px;
   }
 }
