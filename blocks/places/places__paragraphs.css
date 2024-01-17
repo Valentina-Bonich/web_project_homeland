@@ -1,0 +1,4 @@
+.places__paragraphs {
+  grid-row: 2/4;
+  grid-column-start: 2;
+}

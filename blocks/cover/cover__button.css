@@ -18,3 +18,10 @@
 .cover__button:hover + .cover__background {
   opacity: 0.5;
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .cover__button {
+    width: 198px;
+    height: 48px;
+  }
+}
