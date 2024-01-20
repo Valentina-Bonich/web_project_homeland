@@ -6,6 +6,9 @@ Esta página web se verá de forma correcta en diferentes tamaños y resolucione
 Para el diseño se utiliza un prototipo de Figma:
 https://www.figma.com/file/tjwtMvCQkauaKN43QWlSsI/Web_Brief_Sprint_4_ES-%7C-De-patria-a-patria-%7C-desktop-%2B-mobile?type=design&node-id=0-433&mode=design&t=pOwo62A5UamyWzGl-0 .
 
+El proyecto se puede visualizar vía online en el sitio de GitHub Pages:
+https://github.com/Valentina-Bonich/web_project_homeland
+
 Tecnologías utilizadas:
 HTML5 CSS NORMALIZE
 Prettier como formateador automático del código
